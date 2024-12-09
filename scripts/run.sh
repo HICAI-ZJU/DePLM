@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python src/train.py data=batched_GFP model.model=esm2 task_name='avGFP'

@@ -1,0 +1,23 @@
+defaults:
+  - model_checkpoint
+  - early_stopping
+  - model_summary
+  - rich_progress_bar
+  - _self_
+
+model_checkpoint:
+  dirpath: ${paths.output_dir}/checkpoints
+  filename: "epoch_{epoch:03d}"
+  monitor: "val/spearman"
+  mode: "max"
+  auto_insert_metric_name: False
+  every_n_epochs: 50
+  save_top_k: 0
+
+early_stopping:
+  monitor: "val/spearman"
+  patience: 10000
+  mode: "max"
+
+model_summary:
+  max_depth: -1

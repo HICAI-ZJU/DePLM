@@ -1,0 +1,20 @@
+_target_: src.models.DePLM_module.DePLM4ProteinEngineeringModule
+
+optimizer:
+  _target_: torch.optim.AdamW
+  _partial_: True
+  lr: 1e-4
+  weight_decay: 0.005
+
+scheduler:
+  _target_: torch.optim.lr_scheduler.ReduceLROnPlateau
+  _partial_: True
+  mode: min
+  factor: 0.9
+  patience: 10
+
+diff_total_step: 3
+model: esm2
+
+# compile model for faster training with pytorch 2.0
+compile: false

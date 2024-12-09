@@ -1,0 +1,7 @@
+_target_: src.data.batched_protein_engineering_datamodule.BatchedProteinEngineeringDataModule
+data_dir: ${paths.data_dir}
+batch_size: 1
+num_workers: 0
+pin_memory: False
+
+task_name: fluorescence # beta_lactamase | gb1 | fluorescence

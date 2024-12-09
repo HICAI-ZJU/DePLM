@@ -1,0 +1,10 @@
+_target_: src.data.batched_proteingym_substitution_datamodule.BatchedProteinGymSubstitutionDataModule
+data_dir: ${paths.data_dir}
+batch_size: 1
+num_workers: 0
+pin_memory: False
+
+assay_index: 46
+split_type: random
+split_index: 0
+support_assay_num: 40

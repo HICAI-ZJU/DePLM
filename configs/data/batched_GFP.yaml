@@ -1,0 +1,7 @@
+_target_: src.data.batched_GFP_datamodule.BatchedGFPDataModule
+data_dir: ${paths.data_dir}
+num_workers: 0
+pin_memory: False
+
+task_name: avGFP
+support_name: []
