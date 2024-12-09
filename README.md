@@ -1,6 +1,12 @@
 # DePLM: Denoising Protein Language Models for Property Optimization
 
-This repository is the official model and benchmark proposed in a paper: [InstructProtein: Aligning Human and Protein Language via Knowledge Instruction](https://neurips.cc/virtual/2024/poster/95517).
+This repository is the official model and benchmark proposed in a paper: [DePLM: Denoising Protein Language Models for Property Optimization](https://neurips.cc/virtual/2024/poster/95517).
+
+[![Openbayes Demo](https://img.shields.io/static/v1?label=Demo&message=OpenBayes%E8%B4%9D%E5%BC%8F%E8%AE%A1%E7%AE%97&color=green)](https://openbayes.com/console/public/tutorials/tAf7dtY7k9n) 
+[![license](https://img.shields.io/badge/License-MIT-blue.svg?labelColor=grey)](https://github.com/ashleve/lightning-hydra-template#license)
+![](https://img.shields.io/github/last-commit/HICAI-ZJU/DePLM?color=blue) 
+
+
 
 ## Description
 
